@@ -8,7 +8,7 @@ from apiclient.discovery import build
 
 
 
-ytapikey = 'AIzaSyCL9hzV1aexKfLvGF5Vjr73hXfQIOuU5IU'
+ytapikey = *INSERT API KEY*
 
 youtube = build('youtube','v3',developerKey = ytapikey)
 # print(type(youtube))
